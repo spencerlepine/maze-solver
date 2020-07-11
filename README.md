@@ -4,13 +4,13 @@
 ![Program screenshot](./screenshot.jpg)
 
 ## Algorithm Explained:
-The script keeps track of a path (list of coordinates), which starts at 0, 0.
-The solveMaze function recursively extends the path through the maze.
-When the path hits a wall, it will backtrack and trim back the path, since that section was a dead end.
-The recursion continues to search the maze until it reaches the target, or 'end' of the maze.
+- The script keeps track of a path (list of coordinates), which starts at 0, 0.
+- The solveMaze function recursively extends the path through the maze.
+- When the path hits a wall, it will backtrack and trim back the path, since that section was a dead end.
+- The recursion continues to search the maze until it reaches the target, or 'end' of the maze.
 
 ## Extra Information:
-**Modify the code:** Use the [Trinket](https://no-link-yet) service to edit and remix the code live in the browser *(without setting up pygame)*
+**Modify the code:** Use the [Trinket](https://trinket.io/pygame/c8d9fe3965) service to edit and remix the code live in the browser *(without setting up pygame)*
 
 >*Set up Pygame to run the code locally:* [Add Pygame](https://stackoverflow.com/questions/28453854/add-pygame-module-in-pycharm-id)
 
